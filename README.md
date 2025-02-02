@@ -16,3 +16,6 @@ The easiest way to setup is by removing your DVD drive and HDD completely from t
 
 Make sure your microcontroller is plugged into your PC and detected by Thonny. Press the green 'Play' button. If everything is wired up correctly you will see the program check each address on the I2C bus and see if it's the Xbox Eeprom. If it finds the Eeprom it will Dump the contents to 'eeprom.bin' and save it to the microcontroller's internal storage. Everything should take less than 20 seconds.
 To save the 'eeprom.bin' to your Computer, in Thonny on the Top Menu bar click; View>>Files, you should now be able to download the 'eeprom.bin' to your computer. To read the dump you can use the Xbox Eeprom Editor: https://github.com/Ernegien/XboxEepromEditor
+
+Check out a Youtube Video Going over the process;
+https://youtu.be/KOxgQco7XvA
